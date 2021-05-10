@@ -1,0 +1,394 @@
+$ python rnn.py
+input tensor([[1],
+        [2],
+        [3],
+        [4],
+        [5],
+        [6],
+        [7],
+        [8],
+        [9]])
+target tensor([[ 2],
+        [ 3],
+        [ 4],
+        [ 5],
+        [ 6],
+        [ 7],
+        [ 8],
+        [ 9],
+        [10]])
+epoch 0
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 8, 12,  6,  4,  1,  8,  7,  1, 12]])
+loss tensor([[0.0955]])
+epoch 50
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 8, 12,  4,  5,  6,  6,  7,  6, 12]])
+loss tensor([[-0.5702]])
+epoch 100
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 8,  3,  4,  5,  6,  7,  8,  6, 12]])
+loss tensor([[-0.8920]])
+epoch 150
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 8,  3,  4,  5,  6,  7,  8,  9, 12]])
+loss tensor([[-0.9510]])
+epoch 200
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 8,  3,  4,  5,  6,  7,  8,  9, 12]])
+loss tensor([[-0.9705]])
+epoch 250
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9798]])
+epoch 300
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9851]])
+epoch 350
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9885]])
+epoch 400
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9908]])
+epoch 450
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9924]])
+epoch 500
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9936]])
+epoch 550
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9946]])
+epoch 600
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9953]])
+epoch 650
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9959]])
+epoch 700
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9964]])
+epoch 750
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9967]])
+epoch 800
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9971]])
+epoch 850
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9974]])
+epoch 900
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9976]])
+epoch 950
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9978]])
+epoch 1000
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9980]])
+epoch 1050
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9982]])
+epoch 1100
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9983]])
+epoch 1150
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9984]])
+epoch 1200
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9985]])
+epoch 1250
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9986]])
+epoch 1300
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9987]])
+epoch 1350
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9988]])
+epoch 1400
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9989]])
+epoch 1450
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9990]])
+epoch 1500
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9990]])
+epoch 1550
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9991]])
+epoch 1600
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9991]])
+epoch 1650
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9992]])
+epoch 1700
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9992]])
+epoch 1750
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9993]])
+epoch 1800
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9993]])
+epoch 1850
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9993]])
+epoch 1900
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9994]])
+epoch 1950
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9994]])
+epoch 2000
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9994]])
+epoch 2050
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9995]])
+epoch 2100
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9995]])
+epoch 2150
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9995]])
+epoch 2200
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9995]])
+epoch 2250
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9995]])
+epoch 2300
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9996]])
+epoch 2350
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9996]])
+epoch 2400
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9996]])
+epoch 2450
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9996]])
+epoch 2500
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9996]])
+epoch 2550
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9996]])
+epoch 2600
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9997]])
+epoch 2650
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9997]])
+epoch 2700
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9997]])
+epoch 2750
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9997]])
+epoch 2800
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9997]])
+epoch 2850
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9997]])
+epoch 2900
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9997]])
+epoch 2950
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9997]])
+epoch 3000
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3050
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3100
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3150
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3200
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3250
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3300
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3350
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3400
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3450
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+epoch 3500
+input tensor([[1, 2, 3, 4, 5, 6, 7, 8, 9]])
+target tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+pred  tensor([[ 2,  3,  4,  5,  6,  7,  8,  9, 10]])
+loss tensor([[-0.9998]])
+
+
+Given number sequence:  [1, 2, 3]
+new prediction tensor([2, 3, 4])
+Next number in given series:  4
+
+
+Given number sequence:  [3, 4]
+new prediction tensor([4, 5])
+Next number in given series:  5
+
+
+Given number sequence:  [6, 7, 8, 9]
+new prediction tensor([ 7,  8,  9, 10])
+Next number in given series:  10
+
+
+Given number sequence:  [1, 2, 3, 4, 5, 6, 7]
+new prediction tensor([2, 3, 4, 5, 6, 7, 8])
+Next number in given series:  8
