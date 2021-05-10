@@ -17,10 +17,14 @@ A program a forrásmappából a python rnn.py parancsal futtatható. Meghívás 
 ## Eredmények
 <br/>
 Az elfogadott felparaméterezés után a rendszer képes volt feldolgozni az adott inputokat és azokra egy azonos méretű outputtal válaszolni.<br/>
+<br/>
 ![alt text](https://github.com/RichardVas/Series_prediction_via_RNN/blob/main/Pictures/newinputseq.png)
+<br/>
 Az eredmény a következő: A rendszer képes volt megtanulni az adott számtani sorozatot és a közte lévő összefüggéseket. A tanulás jelen esetben 3500 epochon át zajlott.<br/>
 A tesztelésre meghívtam 4 példa predikciót. Látható, hogy képes folytatni a bemenet ként adott sorozatot és hogy minnél hoszabb a sorozat, annál biztosabb a predikcióban, de szinte mindig eredményre jut. <br/>
+<br/>
 ![alt text](https://github.com/RichardVas/Series_prediction_via_RNN/blob/main/Pictures/expected_output.png)
+<br/>
 
 ## Jövőbeli fejlesztések
 <br/>
