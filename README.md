@@ -31,7 +31,7 @@ A tesztelésre meghívtam 4 példa predikciót. Látható, hogy képes folytatni
 A hálózat protípusa sikeresen képes volt teljesíteni az általam elvárt követelményeket és tudta folytatni az adott sorozatot.<br/>
 A jövőben tervem továbbfejleszteni jelenlegi hálózatomat, leginkább az alábbi pontok szerint.<br/>
 
-⋅⋅* Képes legyen nagyobb dimenzióból is adatot fogadni.( leginkább 2D-s vektorokat)<br/>
-⋅⋅* Nagyobb adatkészletét és komplexebb összefüggések megtanítása.<br/>
-⋅⋅* Szélesebb körű, rugalmasabb felhasználás.<br/>
-⋅⋅* A hálózat jelen konfigurációja nem feltétlenül pontos, a szükséges dimenzionalitások lepontosítása muszáj.<br/>
+- Képes legyen nagyobb dimenzióból is adatot fogadni.( leginkább 2D-s vektorokat)<br/>
+- Nagyobb adatkészletét és komplexebb összefüggések megtanítása.<br/>
+- Szélesebb körű, rugalmasabb felhasználás.<br/>
+- A hálózat jelen konfigurációja nem feltétlenül pontos, a szükséges dimenzionalitások lepontosítása muszáj.<br/>
